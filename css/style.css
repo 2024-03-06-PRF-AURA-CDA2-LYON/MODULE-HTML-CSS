@@ -1,10 +1,38 @@
+:root {
+  --color-dark-green: #2f4f4f;
+  --color-primary-green: #3c0080;
+  --color-gold: #bdb76b;
+  --color-light-gold: #ffe4c4;
+}
+
 body {
-  /* background-color: bisque; */
-  background-color: cornsilk;
+  background-color: var(--color-light-gold);
 }
 
 h1 {
-  font-size: 60px;
-  color: brown;
-  font-style: italic;
+  color: #7a2405;
+}
+
+.football {
+  color: var(--color-dark-green);
+  background-color: var(--color-gold);
+}
+
+p {
+  color: #ff0000;
+  font-size: 20px;
+}
+
+/* {
+    color: red;
+    font-size: 20px;
+} 
+*/
+
+li {
+  color: var(--color-primary-green);
+}
+
+h3 {
+  color: #7a2407;
 }
