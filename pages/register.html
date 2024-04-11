@@ -30,7 +30,7 @@
       <!-- Sans aria -->
       <div>
         <label for="first-name">First name : </label>
-        <input required type="text" placeholder="Ex: Chris" id="first-name" />
+        <input type="text" id="first-name" aria-label="first-name" />
         <!-- Avec aria -->
         <!-- <input type="text" placeholder="Prenom" aria-label="First name" /> -->
       </div>
@@ -90,8 +90,27 @@
       <div>
         <label for="bio">Bio : </label>
         <textarea id="bio"></textarea>
+        <!-- <p id="numberOfChars">0</p> -->
       </div>
-      <!-- <input type="submit" value="Envoyer"> -->
+      <div>
+        <label for="birth-date">Birth date : </label>
+        <input id="birth-date" type="date" />
+      </div>
+      <div>
+        <label for="skills">Skills in JS : </label>
+        <input id="skills" type="range" min="1" max="10" />
+        <!-- <span id="skillValue">1</span> -->
+      </div>
+      <div>
+        <label for="experience">Years of experience : </label>
+        <input type="number" id="experience" />
+      </div>
+      <input
+        type="submit"
+        value="Envoyer"
+        role="button"
+        aria-labelledby="submit-button"
+      />
       <button type="submit">Envoyer</button>
       <button type="reset">Reset</button>
     </form>
