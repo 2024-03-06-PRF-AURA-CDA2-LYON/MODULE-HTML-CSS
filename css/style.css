@@ -5,6 +5,12 @@
   --color-light-gold: #ffe4c4;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -28,42 +34,40 @@ h1 {
   background-color: var(--color-gold);
   font-weight: 400;
   text-align: justify;
-  width: 500px;
-  /* height: 700px; */
-
-  /* Padding : Marges internes
-    padding-top:20px;
-    padding-bottom:30px;
-    padding-left : 10px;
-    padding-right:10px;
-
-    ou
-
-    padding: top-value right-value bottom-value left-value
-    padding: 20px 30px 10px 30px;
-
-    padding:top-bottom-value right-left-value
-  */
+  /*width: 500px;
+  */ /*height: 700px;
+  */ /*Padding:;
+  Margesinternespadding-top:20px;
+  padding-bottom:30px;
+  padding-left: 10px;
+  padding-right:10px;
+  oupadding:;
+  top-valueright-valuebottom-valueleft-valuepadding: 20px 30px 10px 30px;
+  padding:;
+  top-bottom-valueright-left-value*/
   padding: 20px 30px;
-
-  /* Margin : marges externes
-       margin-top:20px;
-    margin-bottom:30px;
-    margin-left : 10px;
-    margin-right:10px;
-
-    ou
-
-    margin: top-value right-value bottom-value left-value
-    margin: 20px 30px 10px 30px;
-
-    margin:top-bottom-value right-left-value
-  */
+  /*Margin:;
+  margesexternesmargin-top:20px;
+  margin-bottom:30px;
+  margin-left: 10px;
+  margin-right:10px;
+  oumargin:;
+  top-valueright-valuebottom-valueleft-valuemargin: 20px 30px 10px 30px;
+  margin:;
+  top-bottom-valueright-left-value*/
   margin-bottom: 50px;
+  border: 2px solid black;
+  transition: 0.2s;
+}
+
+.football:hover {
+  font-size: 2.5rem;
+  font-weight: 500;
+  border: 3px solid red;
 }
 
 p {
-  color: #ff0000;
+  color: #CF000F;
   font-size: 20px;
 }
 

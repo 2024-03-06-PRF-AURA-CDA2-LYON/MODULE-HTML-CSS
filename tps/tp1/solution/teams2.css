@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  color: #222222;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.green {
+  background-color: #578957;
+}
+
+.yellow {
+  background-color: #c7b878;
+}
+.team {
+  margin-bottom: 15px;
+  width: 500px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h2 {
+  text-decoration: underline overline;
+}
+
+.list {
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+}
