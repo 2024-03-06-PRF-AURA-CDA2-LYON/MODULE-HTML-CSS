@@ -5,17 +5,61 @@
   --color-light-gold: #ffe4c4;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background-color: var(--color-light-gold);
+  background-color: #ffe4c4;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.8rem;
 }
 
 h1 {
   color: #7a2405;
+  font-size: 3rem;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .football {
   color: var(--color-dark-green);
   background-color: var(--color-gold);
+  font-weight: 400;
+  text-align: justify;
+  width: 500px;
+  /* height: 700px; */
+
+  /* Padding : Marges internes
+    padding-top:20px;
+    padding-bottom:30px;
+    padding-left : 10px;
+    padding-right:10px;
+
+    ou
+
+    padding: top-value right-value bottom-value left-value
+    padding: 20px 30px 10px 30px;
+
+    padding:top-bottom-value right-left-value
+  */
+  padding: 20px 30px;
+
+  /* Margin : marges externes
+       margin-top:20px;
+    margin-bottom:30px;
+    margin-left : 10px;
+    margin-right:10px;
+
+    ou
+
+    margin: top-value right-value bottom-value left-value
+    margin: 20px 30px 10px 30px;
+
+    margin:top-bottom-value right-left-value
+  */
+  margin-bottom: 50px;
 }
 
 p {
