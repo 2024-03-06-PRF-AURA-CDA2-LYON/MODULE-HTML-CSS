@@ -1,0 +1,85 @@
+:root {
+  --default-right-position: 10px;
+  --default-top-position: 20px;
+}
+
+.orange {
+  background: orangered;
+  position: relative;
+}
+
+/* Position relative */
+.indigo {
+  background: indigo;
+  /* position: relative;
+  left: 50px;
+  bottom: 100px; */
+}
+
+.blue {
+  background: blue;
+  /* position: relative;
+  bottom: 200px;
+  left: 30px; */
+}
+
+.item {
+  height: 150px;
+  width: 150px;
+  padding: 3px 5px 0;
+}
+
+/* Position : absolute */
+
+.indigo {
+  /* position: absolute; */
+  /* top:20px; */
+  /* right: 3px;
+  bottom: 30px; */
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.badge {
+  font-size: 15px;
+  background: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: absolute;
+  right: var(--default-right-position);
+  top: var(--default-top-position);
+}
+
+/* position : fixed */
+
+.contact {
+  padding: 10px 10px;
+  background: purple;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
+
+/* position : sticky */
+.menu {
+  background: #1b1b1b;
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
